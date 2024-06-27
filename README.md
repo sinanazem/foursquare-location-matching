@@ -76,25 +76,11 @@ The dataset used in this project consists of location records from Foursquare. E
 
 ## Usage
 
-1. **Data Preprocessing**:
+**Data Preprocessing**:
     ```sh
     python src/data_preprocessing.py
     ```
 
-2. **Feature Engineering**:
-    ```sh
-    python src/feature_engineering.py
-    ```
-
-3. **Model Training**:
-    ```sh
-    python src/model.py
-    ```
-
-4. **Evaluation**:
-    ```sh
-    python src/evaluate.py
-    ```
 
 ## Models and Methods
 
@@ -115,15 +101,3 @@ The dataset used in this project consists of location records from Foursquare. E
 - **Machine Learning Models**: Random Forest, Gradient Boosting, and other classifiers.
 - **Deep Learning Models**: Siamese networks for learning similarity between pairs of records.
 
-<!--
-## Results
-
-The project achieved an accuracy of X% in identifying and merging duplicate location records. Detailed results and evaluation metrics can be found in the `results` directory.
--->
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any feature requests, bug fixes, or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
